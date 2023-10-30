@@ -32,7 +32,12 @@ Demo:
 https://youtu.be/knbZWBB40HQ
 
 ## Homework 2
-_TBA_
+This assignment involves simulating a 3-floor elevator control system using LEDs and buttons.
+Setup:
+![setup](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/61f4eaf6-157f-4928-8e11-576548da6bd9)
+
+Demo:
+https://youtu.be/bWM0YoEcFig
 
 ## Homework 3
 _TBA_
