@@ -40,7 +40,15 @@ Demo:
 https://youtu.be/bWM0YoEcFig
 
 ## Homework 3
-_TBA_
+Using the joystick, one can control the position of the segments of a seven segment display and "draw" on the display. The initial position is on the DP. The current
+position always blinks (irrespective of the fact that the segment is on or off), using the joystick to move from one position to neighbors. Short pressing the button toggles the segment state from ON to OFF or from OFF to ON. Long pressing the button resets the entire display by turning all the segments OFF and moving the
+current position to the decimal point.
+
+Setup:
+![setup](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/e5ffcb0f-cb3d-4a3b-b891-5a13b636caac)
+
+Demo:
+https://youtube.com/shorts/XIElTIi3FpQ?feature=share 
 
                                                             
                                                             
