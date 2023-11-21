@@ -96,7 +96,36 @@ https://youtube.com/shorts/XIElTIi3FpQ?feature=share
 <h3>Demo: </h3>
 https://www.youtube.com/shorts/Zt4Y0uZAbXI
 </details>
-                                                            
+
+<details>
+<summary>
+  
+## [Homework 6](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/tree/main/EnvironmentMonitor)
+</summary> <br>
+  For this task, I have implemented ”Smart Environment Monitor and Logger” using Arduino. I have used an Ultrasonic Sensor (HC-SR04) and a LDR (Light-Dependent Resistor), as well as a RGB Led for status outputs. I have implemented a menu structrure that allows the user to: 
+    1. Set data about the sensors like:
+        1.1. Sampling Interval
+        1.2. Ultrasonic Alert Threshold
+        1.3. LDR Alert Threshold
+    2. Reset Logger Data
+    3. Get information about the status of the system
+        3.1. Current Sensor Readings
+        3.2. Current Sensor Settings
+        3.3. Last 10 sensor readings for all sensors stored in EEPROM
+    4. RGB LED Control
+        4.1. Manual Color Control
+        4.2. LED: Toggle Automatic ON/OFF
+  
+<h3>Setup: </h3>
+
+![setup](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/2e5bf776-4a59-4d08-8cc3-9788e1281612)
+
+
+<h3>Demo: </h3>
+
+_To be added_
+
+</details>                                            
                                                             
                                                             
                                                             
