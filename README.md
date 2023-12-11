@@ -138,7 +138,23 @@ The implemented menu structure allows the user to:
 
 https://youtu.be/RoiU5R4b0oQ
 
-</details>                                            
+</details>
+
+
+<details>
+<summary>
+  
+## [Homework 7](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/tree/main/MiniLEDMatrixGame)
+</summary> <br>
+For this task, I have developed a small bomberman style game on an 8x8 LED Matrix, where the player has to plant bombs to distry the bricks and clear the whole display in order to win, while avoiding being touched by any bomb. The obstacles are on random positions for each game and they are not blinking. The player is blinking at a slower rate and the bombs are blinking faster for 2 seconds before they explode. The bombs will clear the column and the row that the bomb is placed on, which is indicated by a short blink of the dots affected. The player is controlled using a joystick, being able to move only on an up/down and left/right direction. Once the player hits the edge of the display or if a wall is encounter in the way, the movement in that direction will be impossible. Pressing the joystick button shortly will plant a bomb, while pressing the joystick button longer will reset the game after winning or losing. Winning is indicated by a smiley face on the display after cleaning the board and losing is indicated by an "X" symbol.
+
+<h3>Setup: </h3>
+
+![setup](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/5acfcfa2-d340-43b8-8efe-4c33351de22c)
+
+<h3>Demo: </h3>
+https://youtu.be/HJcLgByKrVA
+</details>
                                                             
                                                             
                                                             
