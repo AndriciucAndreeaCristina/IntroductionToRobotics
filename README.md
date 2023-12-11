@@ -157,7 +157,7 @@ https://youtu.be/HJcLgByKrVA
 </details>
 
 
-details>
+<details>
 <summary>
   
 ## [Homework 8](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/tree/main/MiniLEDMatrixGame2.0)
