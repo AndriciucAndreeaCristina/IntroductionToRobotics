@@ -155,6 +155,33 @@ For this task, I have developed a small bomberman style game on an 8x8 LED Matri
 <h3>Demo: </h3>
 https://youtu.be/HJcLgByKrVA
 </details>
+
+
+<details>
+<summary>
+  
+## [Homework 8](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/tree/main/MiniLEDMatrixGame2.0)
+</summary> <br>
+To continue the previous developed game, for this task I have also added an LCD display to guide the user throughout the game. The structure of the menu is as follows:
+
+1. **Intro**:
+2. **Settings**
+    2.1. LCD contrast Setting
+    2.2. LED brightness setting
+    2.3 Back
+3. **About**
+4. **Start**
+During the gameplay, the user is shown how many walls there are left to distroy and they are also prompted a message to inform them of lossing or winning.
+The navigation through the menu is done exclusively using the joystick.  
+<h3>Setup: </h3>
+
+![setup](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/blob/main/MiniLEDMatrixGame2.0/setup.jpg)
+
+<h3>Demo: </h3>
+https://youtu.be/wd5Imuvw3lE
+</details>
+
+
                                                             
                                                             
                                                             
