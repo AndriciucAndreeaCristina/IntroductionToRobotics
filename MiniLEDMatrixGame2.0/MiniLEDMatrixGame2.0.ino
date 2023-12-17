@@ -19,8 +19,8 @@ const int n = 8;
 const int xPin = A0;
 const int yPin = A1;
 const int bPin = 2;
-const int minThreshold = 400;
-const int maxThreshold = 600;
+const int minThreshold = 200;
+const int maxThreshold = 800;
 const int debounceDelay = 100;
 int blinkInterval = 0;
 const int blinkIntervalPlayer = 300;
@@ -181,7 +181,8 @@ const char* brightnessText = "LCD brightness: ";
 const char* brightnessLeds = "LED brightness: ";
 const char* about = "About";
 const char* start = "Start";
-const char* aboutText = "Bomberman - GitHub: AndriciucAndreeaCristina ";
+const char* aboutText1 = "Bomberman ";
+const char* aboutText2 = "Author/Github: AndriciucAndreeaCristina";
 unsigned long previousMillisSettings = 0;
 unsigned long previousMillisS1 = 0;
 JoystickDirection direction = CENTER;
@@ -350,7 +351,6 @@ void handleDisplay() {
       }
     case SETTINGS:
       {
-
         break;
       }
     case SET1:
@@ -390,14 +390,21 @@ void handleDisplay() {
         unsigned long currentMillis = millis();
         static unsigned long previousMillisABT = 0;
         const long interval = 300;
-        if (currentMillis - previousMillisABT >= interval) {
+        if (currentMillis - previousMillisABT >= scrollInterval) {
           previousMillisABT = currentMillis;
-          lcd.clear();
-          lcd.setCursor(0, 0);
-          lcd.print(aboutText + startPosition);
-          startPosition++;
-          if (startPosition > strlen(aboutText) - 16) {
-            startPosition = 0;
+          lcd.setCursor(0, 1);
+
+          int messageLength = strlen(aboutText2);
+          if (scrollPosition >= 0 && scrollPosition < messageLength) {
+            lcd.print(&aboutText2[scrollPosition]);
+            if (scrollPosition + 16 < messageLength) {
+              scrollPosition++;
+            } else {
+              scrollPosition = -1;
+            }
+          } else {
+            lcd.print("                    ");  // Clear line
+            scrollPosition = 0;
           }
         }
         break;
@@ -425,7 +432,7 @@ void handleDisplay() {
         lcd.setCursor(0, 0);
         lcd.print("You lost!");
         unsigned long currentMillis = millis();
-        
+
         if (currentMillis - previousMillisLCD >= scrollInterval) {
           previousMillisLCD = currentMillis;
           lcd.setCursor(0, 1);
@@ -471,6 +478,9 @@ void checkButton() {
               systemState = SETTINGS;
             } else if (line == 1) {
               systemState = ABOUT;
+              lcd.clear();
+              lcd.setCursor(0, 0);
+              lcd.print(aboutText1);
             } else if (line == 2) {
               systemState = GAMEPLAY;
             }
