@@ -181,6 +181,37 @@ The navigation through the menu is done exclusively using the joystick.
 https://youtu.be/wd5Imuvw3lE
 </details>
 
+<details>
+<summary>
+  
+## [Bonus Homework 1](https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/tree/main/Sonar)
+
+</summary> <br>
+For this task, I have developed an Arduino based Sonar system with visualizer using the Processing software.
+
+***Components***
+1. Arduino Uno
+2. SG90 Micro-servo motor
+3. Ultrasonic Sensor - HC-SR04 
+4. Arduino Sheild for easier management of the wires
+5. Jumper wires as needed
+   
+Once the code is uploaded into the Arduino code, you can open the Processing software and run the .pde file. You should be prompted with a new window that indicates the existance of obstacles in the way of the ultrasonic sensor. The clear path is displayed with a green line, while the existance of an obstacle is represented by red lines. You can also change the speed and the range of the detection using the buttons displayed in the radar window.
+
+<h3>Setup: </h3>
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/cf10b7b4-7f4b-4d9c-bd87-40f364a3ce1b">
+  <img width="460" height="300" src="https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/7789a2da-dbad-4ba8-b4b6-e6aeea10ae92">
+   <img width="460" height="300" src="https://github.com/AndriciucAndreeaCristina/IntroductionToRobotics/assets/68044359/6a09d7bd-470c-45b9-91a6-fd06249fa366">
+</p>
+
+<h3>Demo: </h3>
+https://youtu.be/vZ9RZbd8zkM
+</details>
+
+
+
 
                                                             
                                                             
